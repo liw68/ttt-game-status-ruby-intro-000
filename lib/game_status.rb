@@ -59,7 +59,7 @@ def winner(board)
   if index == false
     return nil
   elsif
-    board[combo[0]] == "X"
+    board[index_1] == "X"
       return "X"
   else
     return "O"
