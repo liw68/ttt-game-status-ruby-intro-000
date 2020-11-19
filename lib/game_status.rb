@@ -15,18 +15,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.each do |combo|
-    combo.all? do |position_filled|
-      position_filled == "X"
-        return combo
-      end
-    combo.all? do |position_filled|
-      position_filled =="O"
-            return combo
-          end
-    end
-  return false
-
+  
 end
 
 def full?(board)
